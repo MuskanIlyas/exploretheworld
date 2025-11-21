@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmy2o4v_d3eOUBgoD3_fDfExIDEQwBHGNHTw&s") no-repeat center center fixed;
+    background-size: cover;
+}
+
+form {
+    width: 400px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.input-container {
+    position: relative;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.input-container i {
+    color: teal;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 18px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: rgb(80, 227, 202);
+}
