@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: TEAL; */
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(building.jpg);
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    background-position: center;
+}
+.wrapper{
+    width:450px 750px;
+    position:center;
+    color:#fff;
+    background:transparent;
+    border:2px solid rgba(225,225,225,.2);
+    box-shadow: 0 0 10px rgba(0,0, 0,.2);
+    color:#fff;
+    border-radius:10px;
+    padding:20px 10px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align:center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 380px;
+    height: 180%;
+    margin:30px 0;
+}
+.input-box input{
+    width:70% ;
+    height:110%;
+    background:trasparent;
+    border:none;
+    outline:none;
+    border:2px solid rgba(225,225,225,.2);
+    border-radius:40px ;
+    font-size:14.5px;
+    color:black;
+    padding:4px;
+}
+.input-box input::placeholder{
+    color:rgb(7, 7, 7);
+}
+.wrapper .input-box i{
+    position:middle;
+    right:-5px;
+    top:10%;
+    transform: translateY(-10%);
+    font-size:20px 45px 20px 20px ;
+    color :black;
+}
+.wrapper .remember-forget{
+    display:flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.remember-forget label input{
+    accent-color: #fff;
+    margin-right:3px ;
+}
+.remember-forget a{
+    color:#fff;
+    text-decoration:none;
+}
+.remember-forget a:hover{
+    text-decoration:underline;
+}
+.wrapper .button{
+    width:60%;
+    height: 1%;
+    padding: 10px 10px;
+    border:none;
+    background:#fff;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0, 0,.1);
+    cursor:pointer;
+    font-size: 16px;
+    color:rgb(11, 94, 94);
+    font-weight:600;
+}
+.wrapper .register-link{
+    font-size: 14px;
+    text-align: center;
+    margin:20px 0 15px;
+}
+.register-link p a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:50px;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}

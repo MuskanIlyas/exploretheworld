@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="/submit" method="post">
+            <label for="name" >Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="info">
+            <p>Or reach us directly:</p>
+            <p>Phone: +92 3004893081</p>
+            <p>Email: <a href="muskanilyas018@gmail.com">muskanilyas018@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
